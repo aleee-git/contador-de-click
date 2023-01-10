@@ -1,10 +1,11 @@
 .Contador {
-    min-width: 300px;
+    min-width: 200px;
     height: 150px;
     font-size: 80px;
     padding: 15px;
     display: flex;
-    color: black;
+    color: #85586F;
+    font-weight: 100px;
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;

@@ -5,9 +5,10 @@ button {
     color: aliceblue;
     border: none;
     border-radius: 50px;
-    margin: 5px;
+    margin: 15px;
     cursor: pointer;
     font-size: 35px;
+
 }
 
 button:hover {
@@ -21,6 +22,6 @@ button:hover {
 
 .boton-reiniciar {
     background-color: #F8EDE3;
-    color: black;
+    color: #85586F;
 }
 
