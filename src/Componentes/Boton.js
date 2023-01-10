@@ -8,7 +8,10 @@ function Boton ({texto, esBotonDeClick, manejarClick}) {
         esBotonDeClick es un operador ternario para saber la condicion del boton
         Si es boton de click se asigna la clase "boton-click"
         Sino se asigna la clase "boton-reiniciar" */
-        <button className={ esBotonDeClick ? "boton-click" : "boton-reiniciar" } onClick={manejarClick}>{texto}</button>
+        <button className={ esBotonDeClick ? "boton-click" : "boton-reiniciar" } 
+        onClick={manejarClick}>
+            {texto}
+        </button>
     );
 }
 

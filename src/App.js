@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './Componentes/Boton';
+import Contador from './Componentes/Contador';
 import logoCat from './Images/Logo.webp';
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
       <div className="logo-container">
         <img className="logo" src={logoCat} alt="Logo"/>
       </div>
+
       <div className="main-container">
+      <Contador numeroDeClick="5"/>
+
       <Boton
       texto="Click" 
       esBotonClick={true} 
@@ -31,8 +35,8 @@ function App() {
       texto="Reiniciar" 
       esBotonClick={false} 
       manejarClick={reiniciarcontador} />
-
       </div>
+
     </div>
   );
 }
