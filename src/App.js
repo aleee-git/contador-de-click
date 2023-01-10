@@ -23,7 +23,7 @@ function App() {
       </div>
       <div className="main-container">
       <Boton
-      texto="Clic" 
+      texto="Click" 
       esBotonClick={true} 
       manejarClick={manejarClick} />
 
